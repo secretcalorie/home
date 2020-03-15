@@ -1,0 +1,518 @@
+/*Versi Web*/
+.namaJudul {
+  position: absolute;
+  width: 275px;
+  height: 53px;
+  top: 55px;
+  font-family: Rambla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 53px;
+  color: #000000;
+  position: relative;
+  left: center;
+  top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pilihSatu {
+  max-width: 800px;
+  height: 59px;
+  top: 60px;
+  background: #EBEBEB;
+  border-radius: 40px;
+  position: relative;
+  display: block;
+  margin-top: 41px;
+  margin-bottom: 41px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+}
+
+.inputSatu {
+  width: 800px;
+  height: 59px;
+  left: 0px;
+  top: 0px;
+  text-indent: 1em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  border: none;
+  color: #a4b0be;
+  background: #3498DB;
+  position: relative;
+  background-color: #ffffff00;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.pilihDua {
+  max-width: 800px;
+  height: 59px;
+  top: 60px;
+  position: relative;
+  display: block;
+  margin-top: 41px;
+  margin-bottom: 41px;
+  margin-left: auto;
+  margin-right: auto;
+    outline: none;
+    ::placeholder{
+  color: #a4b0be;
+  }
+}
+
+.inputDua {
+  width: 408px;
+  height: 59px;
+  background: #EBEBEB;
+  border-radius: 40px;
+  position: relative;
+  text-indent: 1em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  border: none;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+}
+
+.Tombol {
+  margin-left: 550px;
+  display: block;
+}
+
+.hitung {
+  position: relative;
+  width: 130px;
+  height: 55px;
+  background: #546de5;
+  border-radius: 10px;
+  border: solid #546de5;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.reset {
+  position: relative;
+  width: 130px;
+  height: 55px;
+  border: 3px solid #C4C4C4;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #546de5;
+  margin-left: 30px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+#latarBelakang {
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+  margin: 0;
+  padding: 0;
+}
+
+#bodyPotong {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  padding: 20px;
+}
+.judulKeterangan {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #576574;
+    margin-top: 100px;
+    margin-left: 55px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+.isiKeterangan {
+  position: relative;
+  max-width: 800px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #EBEBEB;
+  border-radius: 10px;
+  overflow: auto;
+  word-wrap: break-word;
+}
+
+#bagianFooter {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  padding: 20px;
+}
+
+.tombolBawah {
+  position: absolute;
+  width: 130px;
+  height: 60px;
+  background: #3498DB;
+  border-radius: 10px;
+}
+
+.creditTeam {
+  text-align: center;
+  font-size: 13px;
+  color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.teksHasil {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 20px;
+  word-wrap: break-word;
+  margin: 20px;
+}
+
+.gridfooterLayout {
+  display: inline-grid;
+  margin: 40px;
+  overflow: hidden;
+}
+
+.layoutFooter {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.judulFooter {
+  font-family: Rambla;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.deskripsikiriFooter {
+  font-family: Roboto;
+  font-size: 13.6px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.deskripsitengahFooter {
+  font-family: Roboto;
+  font-size: 13.6px;
+  text-align: justify;
+  color: #ffffff;
+  display: flex;
+  overflow: hidden;
+  line-height: 1.6;
+}
+
+.deskripsikananFooter {
+  font-family: Roboto;
+  font-size: 13.6px;
+  text-align: justify;
+  color: #ffffff;
+  display: flex;
+  overflow: hidden;
+  line-height: 1.6;
+}
+
+.gridFooter {
+  text-align: justify;
+}
+
+.gambarFooter {
+  max-width: 9%;
+  margin: 5px;
+}
+
+.gambarkananFooter {
+  max-width: 30%;
+  margin: 5px;
+}
+
+.garisBatas {
+  color: #ffffff;
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.radial {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  background: #303952;
+  border-radius: 50%;
+  border: transparent;
+  transition: all 0.5s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15), 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  cursor: pointer;
+  outline: none;
+}
+.fabIcon{
+  max-width: 70%;
+  background: url("https://image.flaticon.com/icons/svg/414/414948.svg");
+  transition: 0.3s ease-in-out;
+}
+
+div.darkMode {
+  background-color: #303952;
+  transition: 0.3s ease-in-out;
+   .namaJudul{
+ color: #bdc3c7;
+}
+  .reset{
+  position: relative;
+  width: 130px;
+  height: 55px;
+  background: transparent;
+  border: 3px solid #4E5875;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #546de5;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  background-color: transparent;
+  }
+  .hitung {
+  position: relative;
+  width: 130px;
+  height: 55px;
+  background: #546de5;
+  border-radius: 10px;
+  border: solid #546de5;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #303952;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+ .inputDua {
+  width: 408px;
+  height: 59px;
+  background: #4E5875;
+  border-radius: 40px;
+  position: relative;
+  text-indent: 1em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  border: none;
+  color: #9cb0ea;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s ease-in-out;
+}
+.inputSatu {
+  width: 800px;
+  height: 59px;
+  left: 0px;
+  top: 0px;
+  text-indent: 1em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  border: none;
+  color: #9cb0ea;
+  background: #4E5875;
+  position: relative;
+  background-color: #ffffff00;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.pilihSatu {
+  max-width: 800px;
+  height: 59px;
+  top: 60px;
+  background: #4E5875;
+  border-radius: 40px;
+  position: relative;
+  display: block;
+  margin-top: 41px;
+  margin-bottom: 41px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s ease-in-out;
+}
+.pilihDua {
+  max-width: 800px;
+  height: 59px;
+  top: 60px;
+  position: relative;
+  display: block;
+  margin-top: 41px;
+  margin-bottom: 41px;
+  margin-left: auto;
+  margin-right: auto;
+    ::placeholder{
+  color: #9cb0ea;
+  transition: 0.3s ease-in-out;
+  }
+}
+.judulKeterangan {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #9cb0ea;
+    margin-top: 100px;
+    margin-left: 55px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+.isiKeterangan {
+  position: relative;
+  max-width: 800px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #4E5875;
+  border-radius: 10px;
+  overflow: auto;
+  word-wrap: break-word;
+  transition: 0.3s ease-in-out;
+}
+.teksHasil {
+  color: #9cb0ea;
+  font-family: Roboto;
+  font-size: 20px;
+  word-wrap: break-word;
+  margin: 20px;
+  transition: 0.3s ease-in-out;
+	}
+	.radial {
+  background-color: #fafafa;
+	}
+	.fabIcon{
+  background: url("https://image.flaticon.com/icons/svg/136/136723.svg");
+  transition: 0.3s ease-in-out;
+	}
+}
+
+div.lightMode {
+  background-color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+.footerdarkMode{
+	background-color: #303952;
+	transition: 0.3s ease-in-out;
+}
+.footerlightMode{
+	background-color: #ffffff;
+	transition: 0.3s ease-in-out;
+	.judulFooter {
+  		font-family: Rambla;
+  		font-size: 20px;
+  		color: #576574;
+  		transition: 0.3s ease-in-out;
+}
+	.deskripsikiriFooter {
+  font-family: Roboto;
+  font-size: 13.6px;
+  text-align: justify;
+  color: #576574;
+  line-height: 1.6;
+  transition: 0.3s ease-in-out;
+}
+
+.deskripsitengahFooter {
+  font-family: Roboto;
+  font-size: 13.6px;
+  text-align: justify;
+  color: #576574;
+  display: flex;
+  overflow: hidden;
+  line-height: 1.6;
+  transition: 0.3s ease-in-out;
+}
+
+.deskripsikananFooter {
+  font-family: Roboto;
+  font-size: 13.6px;
+  text-align: justify;
+  color: #576574;
+  display: flex;
+  overflow: hidden;
+  line-height: 1.6;
+  transition: 0.3s ease-in-out;
+}
+.garisBatas {
+  color: #576574;
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+  transition: 0.3s ease-in-out;
+}
+.creditTeam {
+  text-align: center;
+  font-size: 13px;
+  color: #576574;
+  margin: auto;
+  padding: 20px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease-in-out;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
