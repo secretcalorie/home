@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src="js/jquery.min.js"></script>
+		<script type="text/JavaScript" src="js/Kalkulasi.js"></script>
+		<script type="text/javascript" src="js/Tampilan.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Rambla&display=swap" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title> SecretCalorie </title>
+	</head>
+	<body id="latarBelakang">
+		<div id="bodyPotong" class="lightMode">
+		<div class="namaJudul">
+			<h1>SecretCalorie</h1>
+		</div>
+		<form ="modeTerang">
+			<div class="pilihSatu">
+				<select class="inputSatu" id="toko">
+					<option class="null" value="null">Nama Toko</option>
+					<option value="Hegar">Toko Hegar</option>
+					<option value="Batagor">Toko Batagor</option>
+					<option value="Milaris">Toko Milaris</option>
+					<option value="Pak Gio">Toko Pak Gio</option>
+					<option value="Pelangi">Toko Pelangi</option>
+					<option value="Ibu Iwa">Toko Ibu Iwa</option>
+					<option value="Ibu Tia">Toko Ibu Tia</option>
+					<option value="Si Goyang">Toko Si Goyang</option>
+					<option value="Ma Ecin">Toko Ma Ecin</option>
+					<option value="Ibu Cucu">Toko Ibu Cucu</option>
+					<option value="Bang Zack">Toko Bang Zack</option>
+				</select>
+			</div>
+			<div class="pilihSatu">
+				<select class="inputSatu" id="makanan">
+					<option class="null" value="null">Nama Makanan</option>
+				</select>
+			</div>
+			<div class="pilihDua">
+				<input class="inputDua" type="text" id="porsi" placeholder="Masukan Per Porsi" />
+				<button class="hitung" type="button" onclick="hitungan()"> Hasil </button>
+				<input class="reset" type="reset" value="Reset" />
+			</div>
+		</form>
+		<div class="judulKeterangan">Jumlah kalori yang diperoleh:</div>
+		<div class="isiKeterangan">
+		<div class="teksHasil">
+		<span id="hasil"></span>
+		</div>
+		</div>
+				<!--FAB Mode Tampilan -->
+		<button class="radial" type="button" name="dark_light" onclick="fabTampilan()" title="Mode Gelap / Terang">
+			<img class="fabIcon" src="image/blank-transparent.png"></img>
+		</button>
+		</div>
+
+	</body>
+	<!--Footer-->
+	<footer id="bagianFooter" class="footerlightMode">
+		<div class="layoutFooter">
+		<div class="gridfooterLayout">
+				<div class="gridFooter">
+					<span class="judulFooter">Tentang kami</span>
+					<br/>
+					<p class="deskripsikiriFooter">SecretCalorie adalah aplikasi untuk<br />membantu pengguna dalam mengetahui<br/>kandungan makanan yang dibeli dan<br/>saran dalam mengkonsumsi makanan.</p>
+				</div>
+		</div>
+		<div class="gridfooterLayout">
+				<div class="gridFooter">
+				<span class="judulFooter">Sosial Media</span>
+					<br/>
+					<img class="gambarkananFooter" src="image/facebook.svg" />
+					<img class="gambarkananFooter" src="image/instagram.svg" />
+				</div>
+		</div>
+		<div class="gridfooterLayout">
+				<div class="gridFooter">
+					<span class="judulFooter">Alamat & Kontak kami</span>
+					<br/>
+					<p class="deskripsitengahFooter"><img class="gambarFooter" src="image/pin.svg" />Jl. Langit No. 7<br/>MSTR, ke Langit<br/>Langit biru, Langit Bumi<br/>696969.</p>
+					<p class="deskripsitengahFooter"><img class="gambarFooter" src="image/email.svg" />fajarnaksbanten@id.id<br/>daffaganteng@gans.id</p>
+					<p class="deskripsitengahFooter"><img class="gambarFooter" src="image/call.svg" />(+00) 000-0000-0000<br/>(+00) 000-0000-0000</p>
+				</div>
+		</div>
+	</div>
+		<hr class="garisBatas" />
+		<div class="creditTeam">HAK CIPTA © 2020 TIM MSTR SEMUA DILINDUNGI UNDANG-UNDANG</div>
+	</footer>
+</html>
